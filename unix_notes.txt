@@ -63,6 +63,8 @@ cd /Desktop/
 cd /
 ls /
 ls ~
+
+# Went up three directory levels
 cd ../../../
 cd stock\ screenshots/
 
