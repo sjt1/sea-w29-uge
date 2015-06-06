@@ -1,3 +1,49 @@
+subl unix_notes.txt
+ls
+
+# Shows the branches. Current branch marked with *
+git branch
+
+# Switch to branch git-notes
+git checkout git-notes
+
+# Creates a branch called git-notes
+git branch git-notes
+
+clear
+
+# Shows the status of git
+git status
+
+# Made a new commit with description
+git commit -m "Describe ls -l."
+
+# Add unix_notes.txt to staging area
+git add unix_notes.txt
+
+# Show git log
+git log
+
+# Show location of master
+which master
+
+git diff --staged
+git diff
+git commit -m "Add initial modification of file."
+subl /etc/paths
+subl
+git commit -m "Add initial version of unix notes."
+
+# Remove unix_notes.txt from Staging Area
+git rm --cached unix_notes.txt
+git --cached unix_notes.txt
+pwd
+cd ..
+cd .git
+
+# List all directories.  Reveals hidden directories
+ls -a
+
 clear
 history | less
 history
