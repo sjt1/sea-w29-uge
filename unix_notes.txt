@@ -2,6 +2,8 @@ clear
 history | less
 history
 ls
+
+# Modified
 cd ..
 rm -r newDirectory/
 rm newDirectory/
@@ -21,7 +23,7 @@ ls -l
 cd Investing/
 pwd
 cd Documents/
-rm Brusselsprouts 
+rm Brusselsprouts
 man ls
 ls -Sl
 ls -S
@@ -38,28 +40,28 @@ ls -t
 cd do
 which subl
 curl -fsSL http://git.io/QxUaOQ | sh
-git config --global user.name 
+git config --global user.name
 curl -fsSL http://git.io/7UHtNA | sh
 git config --global user.email 'spencerjtower1@gmail.com'
 git config --global user.name 'Spencer Tower'
 which git
 git --version
 brew install git
-echo $PATH 
+echo $PATH
 subl /etc/paths
-echo $EDITOR 
+echo $EDITOR
 subl
 sub
 set -gx EDITOR 'subl -w'
 # Sublime Text
 subl ~/.config/fish/config.fish
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-brew 
+brew
 cl
 echo $SHELL
-echo 
+echo
 which fish
-which 
+which
 brew info fish
 fish_update_completions
 curl -fsSL http://git.io/beJs | ruby
