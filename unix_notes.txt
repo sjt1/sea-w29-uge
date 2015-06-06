@@ -19,6 +19,8 @@ ls /
 ls ~
 cd ../../../
 cd stock\ screenshots/
+
+# Shows long version of list
 ls -l
 cd Investing/
 pwd
