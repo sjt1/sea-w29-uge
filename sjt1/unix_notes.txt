@@ -1,0 +1,73 @@
+Git Notes
+
+succeeding silently failing violently
+
+hangouts on air
+UGE SEA-029
+
+majority of servers run unix
+
+Darwin - gave rise to Mac OS X
+Unix made in 70s and still the foundation today - like train tracks being based on horses asses
+
+Unix Features:
+All Data in plaintext files
+Many small programs
+input-output redirection - can combine the small programs to accomplish complex tasks instead of writing one big program.
+
+Unix philosophy:  be lazy
+never retype same command
+
+Keep lines to less than 80 characters
+
+use “which” to find the file and verify it exists
+
+path address location are all synonymous
+
+-t shows you which files were modified last
+
+-r reverses order
+
+verify truth with -l
+
+ctrl c - stops rapid scrolling
+
+\ is an escape character in unix - can use instead of quotes for spaces
+
+Make files all lower case by default
+Don’t use spaces - use underscore or dashes
+
+# is the comment command for all shells
+
+less - a pager
+
+: tells you you’re in pager mode
+
+use / to search
+
+every output can become the input of another program
+
+hidden directories begin with a dot
+  ls -a will show all files
+
+repo is “clean” when everything is tracked / committed
+
+write commit comments in present tense
+
+Parts of a Commit:
+1. Timestamp
+2. Message / Description
+3. Lines / files changed
+4. Author
+5. Unique identifier
+
+HEAD is a label that points to the most recent commit
+
+Key Pair - lets you authenticate yourself without a password
+
+pbcopy - clipboard command
+
+git remote -v   view remotes
+
+git remote set-url nameOfRemote newURLOfRemote  - change url of remote
+
